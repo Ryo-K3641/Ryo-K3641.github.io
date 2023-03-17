@@ -213,91 +213,71 @@
             <tbody>
                 <form action="reservation.php" method="post">
                     <tr>
-                        <td>
-                            <label for="fullname" class="input_items">Full Name</label>
+                        <td class="input_items" id="left_table">
+                            <label for="fullname">Full Name</label>
                             <br>
                             <input type="text" name="fullname" id="fullname" placeholder="Last Name, First Name" required>
-                        </td>
-                        <td rowspan="3">
-                            <label for="comments" class="input_items">Additional request</label>
-                            <textarea name="comments" id="comments" rows="5"></textarea> 
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <label for="email" class="input_items">Email Address</label>
+                            <br>
+                            <label for="email">Email Address</label>
                             <br>
                             <input type="text" name="email" id="email" placeholder="mail@mail.com" required>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <label for="phone" class="input_items">Phone Number</label>
+                            <br>
+                            <label for="phone">Phone Number</label>
                             <br>
                             <input type="number" name="phone" id="phone" placeholder="(+63) 912345678" required>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td id="Reservation_details">Reservation Details</td>
-                        <td><img src="/assets/Images/reservation-cards.png" id="card_image"></td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <label for="guest" class="input_items">Number of Guest</label>
+                            <br>
+                            <span id="Reservation_details">Resevation Details</span>
+                            <br>
+                            <label for="guest">Number of Guest</label>
                             <br>
                             <input type="number" name="guest" id="guest" placeholder="1" required>
+                            <br>
+                            <label for="rdate">Reservation Date</label>
+                            <input type="date" name="rdate" id="rdate" placeholder="mm/dd/yyyy" required>
+                            <br>
+                            <span id="rtime">Reservation time</span>
+                            <br> 
+
+                            <input type="radio" name="Time" id="Morning" class="time">
+                            <label for="Morning" >Morning</label>
+                            
+                            <input type="radio" name="Time" id="Afternoon" class="time">
+                            <label for="Afternoon" >Afternoon</label>
+
+                            <input type="radio" name="Time" id="Night" class="time">
+                            <label for="Night" >Night</label>
                         </td>
-                        <td>
-                            <label for="fullname" class="input_items">Full Name</label>
+
+                        <td class="input_items" id="right_table">
+                            <label for="comments" >Additional request</label>
+                            <br>
+                            <textarea name="comments" id="comments" rows="11"></textarea> 
+                            <br>
+                            <span id="payment">PAYMENT</span>
+                            <br> 
+                            <img src="/assets/Images/reservation-cards.png" id="card_image">
+                            <br> 
+                            <span id="payment_cards">Payment Accepted Cards</span>
+                             <br>
+                            <label for="fullname" >Full Name</label>
                             <br>
                             <input type="text" name="fullname" id="fullname" placeholder="John Doe" required>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <label for="rdate" class="input_items">Reservation Date</label>
-                            <input type="date" name="rdate" id="rdate" placeholder="mm/dd/yyyy" required>
-                        </td>
-                        <td>
-                            <label for="card_numebr" class="input_items">Credit Card Number</label>
+                            <br>
+                            <label for="card_numebr" >Credit Card Number</label>
                             <br>
                             <input type="number" name="card_number" id="card_number" placeholder="1234567890" required>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td class="input_items">
-                            <span >Reservation time</span>
-                            <br> 
-                            <input type="radio" name="Time" id="Morning">
-                            <label for="Morning">Morning</label>
-
-                            <input type="radio" name="Time" id="Afternoon">
-                            <label for="Afternoon">Afternoon</label>
-
-                            <input type="radio" name="Time" id="Night">
-                            <label for="Night">Night</label>
-                        </td>
-
-                        <td>
-                            <input type="checkbox" name="confirm" id="condition_agreement.">
-                            <label for="condition_agreement">I agree in the terms and conditions.</label>
-
                             <br>
-
-                            <input type="submit" name="SEND" value="SEND">
+                            <input type="checkbox" name="confirm" id="condition_agreement">
+                            <label for="condition_agreement">I agree in the terms and conditions.</label>
+                            <br>
+                            <input type="submit" name="SEND" value="SEND" id="send">
                         </td>
-                    </tr>
-        </table>
+                    </tbody>
+                    </table>
 
 
     <footer>
-        <div id="fotter_img" img src="/assets/images/footer-img_720.jpg">
+        <div id="fotter_info">
             <span>OPENING HOURS</span>
             <span>LATEST POST</span>
             <span>CONTACT US</span>

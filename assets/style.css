@@ -13,6 +13,7 @@ font-family: 'Raleway', sans-serif; */
 
 body {
     margin: 0 auto;
+    width: 860px;
 }
 
 header {
@@ -79,6 +80,7 @@ header nav ul li{
     background-size: cover;
     background-image: url('./images/banner-bg_720.jpg');
     background-repeat: no-repeat;
+    position: relative;
  }
 
 #banner_image {
@@ -238,7 +240,7 @@ header nav ul li{
     font-weight: 200;
     position: absolute;
     top: 70px;
-    left: 325px;
+    left: 385px;
 }
 
 #Discount p {
@@ -247,13 +249,13 @@ header nav ul li{
     font-weight: bolder;
     position: relative;
     top: 90px;
-    left: 230px;
+    left: 290px;
 }
 
 #view_products {
     position: absolute;
     top: 130px;
-    left: 340px;
+    left: 395px;
     width: 90px;
     background-color: rgba(236, 231, 231, 0.7);
     padding: 7px;
@@ -286,7 +288,7 @@ header nav ul li{
 #Bean_variates {
     background-image: url('./images/ads-img3_720.jpg');
     background-size: cover;
-    height: 200px;
+    height: 280px;
     width: 100%;
 }
 
@@ -294,7 +296,7 @@ header nav ul li{
     background-image: url('./images/ads-img4_720.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 280px;
     width: 100%;
 }
 
@@ -302,7 +304,7 @@ header nav ul li{
     background-image: url('./images/ads-img5_720.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 280px;
     width: 100%;
 }
 
@@ -310,7 +312,7 @@ header nav ul li{
     background-image: url('./images/ads-img6_720.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 280px;
     width: 100%;
 }
 
@@ -333,7 +335,9 @@ header nav ul li{
 
 #bottom_table {
     width: 100%;
-    border: solid #000;
+    border-color: #fff;
+    border-spacing: 10px;
+    margin: 0 auto;
 }
 
 #bottom_table th {
@@ -347,4 +351,103 @@ header nav ul li{
     border-bottom: solid 2px #c7a17a;
     margin-bottom: 30px;
 }
+
+#bottom_table td {
+    background-color:#f2f2f2;
+}
+
+input, textarea {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+label {
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif; 
+    margin: 20px 0px;
+}
+
+.input_items {
+    margin: 0 auto;
+}
+
+#left_table {
+    width: 50%;
+    padding: 20px;
+    height: auto;
+    margin-bottom:20px;
+    vertical-align: top;
+}
+
+#right_table {
+    width: 50%;
+    padding: 20px;
+    height: auto;
+    margin-bottom:20px;
+    vertical-align: top;
+}
+
+#card_image {
+    width: 40%;
+    position: relative;
+    left: 130px;
+}
+
+.time {
+    display: inline;
+    width: auto;
+}
+
+#Reservation_details {
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif; 
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+#rtime {
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+}
+
+#payment {
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif; 
+    margin: 20px 0px;
+}
+
+#payment_cards {
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif; 
+    margin: 20px 0px;
+}
+
+#condition_agreement {
+    display: inline;
+    width: auto;
+}
+
+#send {
+    width: 100%;
+    background-color:
+}
+
+
+
+
 
