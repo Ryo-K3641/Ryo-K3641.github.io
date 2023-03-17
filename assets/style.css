@@ -1,0 +1,350 @@
+/* Reference */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/* #96746b
+#312a26
+#c7a17a
+#19100F */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+}
+
+header h1 {
+    color: #96746b;
+    font-family:'Oswald', sans-serif;
+    font-size: 20px;
+    display:inline;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul{
+    /* list style none erases bullet */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    list-style-type: none;
+    word-spacing: 8px;
+    margin-top: 7px;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+header nav ul li{
+    display: inline;
+
+ }
+
+#uniquely{
+    color: #c7a17a;
+    font-family:'Oswald', sans-serif;
+    display:inline;
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    font-size: 45px;
+ }
+
+ #fresh_taste {
+    color: #aa9385;
+    font-family:'Oswald', sans-serif;
+    display:inline;
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    font-size: 45px;
+ }
+
+ #banner{
+    color: #96746b;
+    font-family:'Oswald', sans-serif;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('./images/banner-bg_720.jpg');
+    background-repeat: no-repeat;
+ }
+
+#banner_image {
+    width: 100%;
+}
+
+#unique_taste {
+    display: inline;
+    color: #fff;
+    position: absolute;
+    top: 185px;
+    left: 73px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#button {
+    position: absolute;
+    top: 210px;
+    left: 70px;
+    color: #fff;
+    background-color: rgba(128, 113, 113, 0.409);
+    padding: 8px;
+    font-size: 4px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+}
+
+#table {
+    width: 100%;
+    margin: 0 auto;
+    /* Centering the image */
+    padding: 40px;
+    border-spacing: 10px 10px;
+}
+
+#seasonal-coffee {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    height: 280px;
+    width: 45%;
+    background-image: url('/assets/images/ads-img1_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 3px 3px 2px #514d4d;
+}
+
+#seasonal-coffee h2 {
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+#bundle-package {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    height: 280px;
+    width: 45%;
+    background-image: url('/assets/images/ads-img2_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 3px 3px 2px #514d4d;
+
+}
+
+#bundle-package h2 {
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.read_more {
+    color: #fff;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    text-shadow: none;
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+.Top_Letter {
+    color: #c7a17a;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+}
+
+#coffee_house_marchandise {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: solid 2px #c7a17a;
+    text-align: center;
+}
+
+.products {
+    width: 100%;
+    border-spacing: 10px;
+    font-size: 7px;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    text-align: left;
+}
+
+.products_name {
+    display: inline;
+    font-weight:bolder;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+
+.item_name {
+    font-family:'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.asterisk {
+    font-family:'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price {
+    font-family:'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+#Discount {
+    color: #fff;
+    font-family:'Oswald', sans-serif;
+    height: 250px;
+    width: 100%;
+    padding: 0px 20px;
+    background-size: cover;
+    background-image: url('./images/discount-img_720.jpg');
+    position: relative;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+#Discount h2 {
+    font-family:'Raleway', sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 200;
+    position: absolute;
+    top: 70px;
+    left: 325px;
+}
+
+#Discount p {
+    font-family:'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+    position: relative;
+    top: 90px;
+    left: 230px;
+}
+
+#view_products {
+    position: absolute;
+    top: 130px;
+    left: 340px;
+    width: 90px;
+    background-color: rgba(236, 231, 231, 0.7);
+    padding: 7px;
+    font-size: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    border: none;
+}
+
+#marchandise_sale {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: solid 2px #c7a17a;
+    text-align: center;
+}
+
+#information {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 15px 15px;
+    text-shadow: 2px 2px 2px #514d4d;
+    margin-bottom: 50px;
+}
+
+#Bean_variates {
+    background-image: url('./images/ads-img3_720.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+#Barista_favorite {
+    background-image: url('./images/ads-img4_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+#Best_sellers {
+    background-image: url('./images/ads-img5_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+#More_than {
+    background-image: url('./images/ads-img6_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.subtitles {
+    position: relative; 
+    top: 60px;
+    left: 40px;
+}
+
+.read_more_s {
+    color: #fff;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    text-shadow: none;
+    position: relative;
+    top: 55px;
+    left: 40px;
+    text-shadow: 2px 1px 2px rgb(113, 108, 108)
+}
+
+#bottom_table {
+    width: 100%;
+    border: solid #000;
+}
+
+#bottom_table th {
+    text-align: center;
+}
+
+#Reservation_form {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: solid 2px #c7a17a;
+    margin-bottom: 30px;
+}
+
